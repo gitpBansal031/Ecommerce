@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles (Optional) */
+body {
+  @apply bg-gray-100 text-gray-900 font-sans;
+}
+
+button {
+  @apply rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ease-in-out;
+}
+
+h1, h2 {
+  @apply text-center font-bold my-4;
+}
